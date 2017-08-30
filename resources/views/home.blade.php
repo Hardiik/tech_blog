@@ -1,0 +1,5 @@
+@include('layouts.masters.main')
+@include('layouts.masters.footer')
+@include('layouts.partials.newsfeed')
+@yield('newsfeed')
+@yield('footer')
